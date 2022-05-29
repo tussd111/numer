@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  frontweb:
+    container_name: frontend1
+    build: .
+    ports:
+      - 3000:3000
+  # websever:
+  #   container_name: sever
+  #   build: ./backend
+  #   restart: always
+  #   ports:
+  #     - 6000:6000
